@@ -2,8 +2,10 @@ import React from 'react'
 
 const Spinner = () => {
   return (
-    <div className='animate-ping w-16 h-16 m-8 rounded-full bg-sky-600'>
-      
+    <div className='text-center justify-center flex'>
+    <div className="w-12 h-12 rounded-full animate-spin
+    border-8 border-solid border-sky-600 border-t-transparent">
+    </div>
     </div>
   )
 }
